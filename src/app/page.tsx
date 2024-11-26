@@ -1,7 +1,13 @@
 "use client"
 
 import { IconText } from "@/components/IconText"
-import { Amphora, BookOpen, BrainCircuit, ShieldQuestion } from "lucide-react"
+import {
+  Amphora,
+  BookOpen,
+  BrainCircuit,
+  FileSearch2,
+  ShieldQuestion,
+} from "lucide-react"
 import Link from "next/link"
 
 export default function Home() {
@@ -20,6 +26,9 @@ export default function Home() {
         </Link>
         <Link href="/facts">
           <IconText text="Facts" Icon={Amphora} />
+        </Link>
+        <Link href="/doc-chat">
+          <IconText text="Document Chat" Icon={FileSearch2} />
         </Link>
       </div>
     </main>
