@@ -3,6 +3,7 @@
 import { IconText } from "@/components/IconText"
 import {
   Amphora,
+  Bird,
   BookOpen,
   BrainCircuit,
   FileSearch2,
@@ -29,6 +30,9 @@ export default function Home() {
         </Link>
         <Link href="/doc-chat">
           <IconText text="Document Chat" Icon={FileSearch2} />
+        </Link>
+        <Link href="/agent">
+          <IconText text="AI Agent" Icon={Bird} />
         </Link>
       </div>
     </main>

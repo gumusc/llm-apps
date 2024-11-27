@@ -6,6 +6,8 @@ Some example LLM applications.
 - Story Maker
 - Trivia
 - Facts
+- Document Chat
+- Agent
 
 ## Getting Started
 
